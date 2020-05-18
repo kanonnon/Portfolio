@@ -185,6 +185,7 @@ h4 {
 .swimming_club img {
     filter: saturate(50%);
     width: 100%;
+    vertical-align: bottom;
 }
 
 .swimming_club ul li{
