@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+body {
+    background-color: #70154a;
+    color: #fff;
+}
+
+/* TOP */
+h1 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    text-shadow: 0px 5px 5px #aaa;
+}
+
+hr {
+    background-color: white;
+    height: 2px;
+    margin-bottom: 60px;
+}
+
+/* SLIDE */
+
+li{
+    list-style-type:none;
+}
+
+#slide img {
+    filter: saturate(50%);
+}
+
+#slide ul{
+    position:relative;
+    text-align: center;
+}
+
+#slide li{
+	position:absolute;
+    width:100%;
+}
+
+#button{
+	padding-top:420px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+#button ul{
+	display:inline-block;
+}
+
+#button ul li{
+	float:left;
+	margin-right:15px;
+}
+
+#button ul li:last-child{
+	margin-right:0;
+}
+
+#button ul li a{
+	text-indent:-9999px;
+	text-decoration:none;
+	display:block;
+	width:14px;
+	height:14px;
+	border-radius:7px;
+	background:#eee;
+}
+
+#button ul li a.target{
+	background:#aaa;
+}
+
+/* ABOUT ME */
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    background-color: black;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.border {
+    border-top: solid #fff;
+    border-bottom: solid #fff;
+}
+
+.info {
+    width:80%;
+    margin:20px  auto;
+    margin-bottom: 50px;
+}
+
+.table {
+    margin: 0 80px;
+}
+
+table {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+/* FAVORITE */
+.favorite-wrapper {
+    margin-bottom: 50px;
+}
+
+.favorite {
+    margin: 10px 100px;
+}
+
+.favorite img{
+    margin-top: 40px;
+    margin-bottom: 0;
+    width: 100%;
+    filter: saturate(50%);
+}
+
+.favorite h3 {
+    margin: 0;
+    padding: 5px 0;
+    background-color: black;
+    text-align: center;
+}
+
+.favorite p {
+    margin: 0;
+    padding: 15px 0;
+    background-color: #8c4c71;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* SCHOOL */
+#school {
+    margin-bottom: 40px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.school {
+    margin: 0 40px 80px 80px;
+}
+
+.school h3 {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.school p {
+    margin-left: 80px;
+}
+
+/* SWIMMING */
+
+.swimming img {
+    filter: saturate(50%);
+    width: 80%;
+    margin: 20px;
+}
+
+.swimming p {
+    text-align: center;
+    line-height: 200%;
+    align-self: center;
+}
+
+.swimming_club {
+    margin: 40px 80px;
+}
+
+.swimming_club img {
+    filter: saturate(50%);
+    width: 100%;
+}
+
+.swimming_club ul li{
+	position: relative;
+	color: #FFF;
+	line-height: 2em;
+}
+
+.swimming_club div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background: rgba(140, 76, 113, .7);
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+
+.swimming_club p{
+	position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+.main p{
+	position:r elative;
+	top: 10px;
+}
+
+/* SNS */
+.sns ul {
+    display: flex;
+    list-style: none;
+}
+
+.sns li {
+    flex: 1;
+}
+
+.sns li  a {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sns li a:hover {
+    opacity: 0.8;
+}
+
+.fa-twitter {
+    background-color: #55acee;
+    filter: saturate(50%);
+}
+
+.fa-instagram {
+    background-color: #F26939;
+    filter: saturate(50%);
+}
+
+/* GRID */
+.favorite {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+}
+
+.school {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.swimming {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.swimming_club ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+}
+
+.sns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
